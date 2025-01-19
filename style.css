@@ -101,7 +101,6 @@ line-height: 24px;
         flex-direction: column-reverse;
     }
     .influencer-head-content{
-        justify-content: center;
         align-items: center;
         width: 100%;
         margin-left: 0;
@@ -112,17 +111,13 @@ line-height: 24px;
     .influencer-head-pic{
         margin-top: 40px;
         width: 100%;
-        margin-left: 50px;
-        background-size: 350px;
+        background-size: 450px;
         background-position:cover;
-        display: flex;
-        /* justify-content: center; */
-        /* align-items: center; */
-
-
+        margin: 0;
+        justify-content: center;
+        align-items: center;
     }
     .head-img{
-        width: 80%;
-        padding-bottom: 100px;
+        width: 90%;
     }
 }
